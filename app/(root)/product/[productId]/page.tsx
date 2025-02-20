@@ -10,17 +10,17 @@ import { Button } from '@/components/ui/button'
 interface Props {
 	params: Params
 }
-// export async function generateMetaData({ params }: Props) {
-// 	const { productId } = await params
-// 	const res = await getProduct({ id: productId })
-// 	const product = res?.data?.product
+export async function generateMetadata({ params }: Props) {
+	const { productId } = await params
+	const res = await getProduct({ id: productId })
+	const product = res?.data?.product
 
-// 	return {
-// 		title: product?.title,
-// 		description: product?.description,
-// 		openGraph: { images: product?.image },
-// 	}
-// }
+	return {
+		title: product?.title,
+		description: product?.description,
+		openGraph: { images: product?.image },
+	}
+}
 
 const Page = async ({ params }: Props) => {
 	const { productId } = await params
