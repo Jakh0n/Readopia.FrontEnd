@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 ECommerce Platform  
 
-## Getting Started
+### 🌟 Project Overview  
+This project is a **fully functional eCommerce platform** designed to provide a seamless shopping experience with **secure authentication, smooth transactions, and an intuitive admin dashboard**.  
 
-First, run the development server:
+The platform is built with a modern **tech stack** to ensure performance, scalability, and a great user experience.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Website
+Experience the app live:  
+https://www.flami.org/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Screenshots  
+### **Home Page:** 
+![Homepage Screenshot](./screenshots/homepage.png) 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Admin Dashboard:** 
+![Admin Dashboard Screenshot](./screenshots/adminpage.png) 
 
-## Learn More
+### **User Dashboard:** 
+![User Dashboard Screenshot](./screenshots/dashboardpage.png) 
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack  
 
-## Deploy on Vercel
+### **Frontend:**  
+- ⚡ **Next.js** – Fast, server-rendered React framework  
+- 💻 **TypeScript** – Strongly typed JavaScript  
+- 🎨 **React.js** – Component-based UI development  
+- 🌿 **ShadCN UI** – Beautiful, accessible UI components  
+- 🎨 **Tailwind CSS** – Utility-first styling  
+- ⚡ **JavaScript** – Core programming language  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### **Deployment:**  
+- 🌍 **Frontend:** Deployed on **Vercel**  
+
+---
+
+## 🔑 Key Features  
+✅ **Authentication System** – Secure login, registration, and OTP verification  
+✅ **Admin Dashboard** – Manage products, orders, and users efficiently  
+✅ **User Dashboard** – Personalized shopping experience  
+✅ **Product Uploading** – Seamless addition of new products  
+✅ **Secure Transactions** – Powered by **Stripe** for reliable payments  
+✅ **Image Uploads** – Managed with **UploadThing** for seamless media handling  
+✅ **Responsive UI** – Optimized for all devices  
+
+---
